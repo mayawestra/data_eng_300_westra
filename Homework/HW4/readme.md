@@ -9,7 +9,7 @@
 - Activate both DAGs in the MWAA environment and allow them to run according to their schedules.
 
 Project Structure
-- homework_4/
+- HW4/
 - dag1_bert_embeddings.py
 - recommendation_pipeline.py
 - readme.md
