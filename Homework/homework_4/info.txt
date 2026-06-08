@@ -1,0 +1,4 @@
+Group: Maya Westra, Jali Koroma, Rebecca Liu 
+
+S3 Bucket: s3://de300-airflow-rmj
+MWAA: de300-airflow-rmj
