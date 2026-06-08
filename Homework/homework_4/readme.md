@@ -3,13 +3,13 @@
 **Overview:**  This project recreates the recommendation system developed in Homework 2 using Amazon Managed Workflows for Apache Airflow (MWAA). The goal is to generate BERT-based movie embeddings, process MovieLens ratings data over four simulated arrival periods, compute user embeddings, and generate movie recommendations for both cold users and highly active users. All intermediate and final outputs are stored in Amazon S3.
 
 **How to Run the Code**: 
-- Clone the repository and navigate to the HW4 folder in Github:
+- Clone the repository and navigate to the homework_4 folder in Github:
 - Upload the DAG files to the MWAA DAG folder in the project S3 bucket.
 - Ensure the MovieLens 1M dataset files (movies.dat and ratings.dat) are stored in: s3://de300-airflow-rmj/data/
 - Activate both DAGs in the MWAA environment and allow them to run according to their schedules.
 
 Project Structure
-- HW4/
+- homework_4/
 - dag1_bert_embeddings.py
 - recommendation_pipeline.py
 - readme.md
